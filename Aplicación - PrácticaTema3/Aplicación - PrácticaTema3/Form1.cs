@@ -28,8 +28,10 @@ namespace Aplicación___PrácticaTema3
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
-            if (cbUrgente.Checked)
+            if (radioUrgente.Checked)
                 tipoTelegrama = 'u';
+            else 
+                tipoTelegrama = 'o';
 
             //Obtengo el número de palabras que forma el telegrama
             numPalabras = textoTelegrama.Length;
