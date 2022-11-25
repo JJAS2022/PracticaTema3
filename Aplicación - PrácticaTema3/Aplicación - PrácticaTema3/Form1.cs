@@ -24,7 +24,7 @@ namespace Aplicación___PrácticaTema3
             int numPalabras = 0;
             double coste;
 
-            //Leo el telegrama 
+            //Leo el telegrama  
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
